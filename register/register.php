@@ -15,7 +15,7 @@ include '../mysql_lib/mysql_basic_lib.php';
 		
 		$con=mysqlconnect($host_name,$user_name,$db_password);		//连接数据库
 		if($con)
-			echo "数据库连接成功！<br/>";
+			echo "数据库连接成功啦！<br/>";
 		//createdatabase($con,$db_name);							//创建数据库
 	}
 	//echo "here";
